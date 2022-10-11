@@ -103,7 +103,6 @@ function App() {
 
   return (
     <div className="App">
-      <p style={{color: '#fff'}}>{selected}</p>
       <Header />
       <Hangman wrongs={wrongs.length} />
       <Wrongs wrongs={wrongs} />
